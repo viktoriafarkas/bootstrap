@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Virtuális Láda - Online Zöldség és gyümölcs kereskedés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bshomework.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md sticky-top own-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/icons8-vegetables-64.png" height="50" alt="logo"></a>
+          <a class="navbar-brand own-fejlec-szoveg" href="#">Virtuális Láda - Online zöldség és gyümölcs kereskedés</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menü</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active own-fejlec-szoveg" aria-current="page" href="#hero">Főoldal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link own-fejlec-szoveg" href="#rolunk">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link own-fejlec-szoveg" href="#arak">Árak</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link own-fejlec-szoveg" href="#kapcsolat">Kapcsolat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="hero" class="container">
+        <h1 class="text-center pt-5 own-cim">Virtuális Láda</h1>
+       <!-- Itt kezdődik a carousel komponens -->
+       <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
+           <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="./img/carosuel/szilva.jpg" class="d-block w-100 " alt="szilva">
+             </div>
+             <div class="carousel-item">
+               <img src="./img/carosuel/kelbimbo.jpg" class="d-block w-100" alt="kelbimbo">
+             </div>
+             <div class="carousel-item">
+               <img src="./img/carosuel/cekla.jpg" class="d-block w-100" alt="cekla">
+             </div>
+             <div class="carousel-item">
+               <img src="./img/carosuel/afonya.jpg" class="d-block w-100" alt="afonya">
+             </div>
+             <div class="carousel-item">
+               <img src="./img/carosuel/salata.jpg" class="d-block w-100" alt="salata">
+             </div>
+             <div class="carousel-item">
+               <img src="./img/carosuel/kaposzta.jpg" class="d-block w-100" alt="kaposzta">
+             </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+   </section>
+    <section id="rolunk" class="container text-center mt-5 ">
+        <div class="row">
+          <div class="col-lg-12 col-xl-8 mb-5 pt-5 ">
+            <img src="./img/fokep.jpg" alt="viz" class="img-fluid">
+          </div>
+          <div class="col-lg-12 col-xl-4 mt-3 ml-5 p-3">
+            <h2 class="own-rolunk">Rólunk</h2>
+            <p class="own-p">Paprika Petrának hívnak, a Virtuális Láda alapítója és lelkes kertész. Szerettem volna egy olyan zöldség- és gyümölcs kereskedés, ahol könnyen és gyorsan online leadhatja rendelését.</p>
+            <h2 class="own-rolunk">Az ötlet</h2>
+            <p class="own-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu rutrum purus. Nullam dolor lectus, sagittis eget metus ut, interdum lacinia neque. Proin sed libero non ipsum porta iaculis. Aenean non ornare eros. Maecenas vel posuere ipsum. Curabitur sed interdum neque. Morbi nec fringilla mauris.</p>
+          </div>
+        </div>
+      </section>
+      <section id="arak" class="container">
+        <h2 class="mt-5 text-center own-h2">Árak</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover text-center">
+                <thead class="own-tabla-fej">
+                    <tr>
+                        <th>Termékek</th>
+                        <th>Ár / egység</th>
+                        <th>Ár / 5 egység</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Áfonya</td>
+                        <td>390 Ft / dkg</td>
+                        <td>1690 Ft / doboz </td>
+                    </tr>
+                    <tr>
+                        <td>Cékla</td>
+                        <td>190 Ft / db</td>
+                        <td>790 Ft / 5 db</td>
+                    </tr>
+                    <tr>
+                        <td>Káposzta</td>
+                        <td>1190 Ft / kg</td>
+                        <td>5690 Ft / 5 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Kelbimbó</td>
+                        <td>790 Ft / kg</td>
+                        <td>3690 Ft / 5 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Saláta</td>
+                        <td>890 Ft / kg</td>
+                        <td>4090 Ft / 5 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Szilva</td>
+                        <td>230 Ft / db</td>
+                        <td>990 Ft / 5 db</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form class="mt-5 border-top border-bottom" id="kapcsolat">
+            <h3 class="mb-3 mt-3 text-center own-h2">Kapcsolat</h3>
+            <p class="text-center pb-3"><i>Ha kérdésed van, tedd fel bátran!
+              Ha rendelni szeretnél, írd be pontosan melyik zöldségünkből és/vagy gyümölcsünkből mennyit szeretnél kérni.</i></p>
+            <div class="row mb-3"> 
+                <div class="col-md-4 mt-3 form-floating"> 
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Név</label>
+                    <div class="form-text">Kérjük, a teljes nevét írja be!</div>
+                </div>
+                <div class="col-md-4  mt-3 form-floating">
+                    <label class="form-label" for="email-id"></label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="col-md-4 mt-3 form-floating"> 
+                  <label class="form-label" for="name-id"></label>
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Telefonszám</label>
+              </div>
+            </div>
+            <div class="row mt-5">
+                <div class="mb-4 col-md-3">
+                    <label class="form-label" for="velemeny">Válasszon opciót:</label>
+                    <div class="form-check ">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Rendelés leadás
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Érdeklődés
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Reklamáció / panasz benyújtás
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Egyéb rendeléssel kapcsolatos ügyek
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Egyéb
+                        </label>
+                      </div>
+                </div>
+                <div class="mb-4 col-md-9">
+                    <label class="form-label" for="velemeny">Rendelés:</label>
+                    <textarea name="velemeny" id="velemeny" class="form-control h-75" placeholder="Kérjük írja le mit szeretne rendelni, mennyiséggel együtt."></textarea>
+                </div>
+            </div>
+            <div class="mt-5 mb-4">
+                <input type="checkbox" name="gdpr" value="gdpr-ok" id="gdpr">
+                <label for="gdpr">Elolvastam és elfogadom az Adatvédelmi tájékoztatóban foglaltakat.</label>
+            </div>
+            <div class="mb-4">
+                <input type="submit" value="Küldés" class="btn own-btn-2">
+            </div>
+        </form>
+    </section>
+    <section>
+        <div class=" mt-5">
+
+            <footer class="text-white text-center text-lg-start own-footer">
+            <div class="container p-4">
+                <div class="row mt-4">
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Hitvallásunk</h5>
+        
+                    <p>
+                    "Finomat, frisset, gyorsan és kényelmesen"
+                    </p>
+        
+                    <h5 class="text-uppercase pt-4 ">Kövess be minket!</h5>
+        
+                    <div class="">
+                    <a type="button" class="btn btn-floating btn-lg"><img src="img/facebook.png"  alt="Facebook " ><i class="fab fa-facebook-f"></i></a>
+                    <a type="button" class="btn btn-floating btn-lg"><img src="img/instagram.png"  alt="Instagram"><i class="fab fa-insta"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">Elérhetőség</h5>
+        
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                    <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">3457 Pipacsfalva, Tök utca 3.</span>
+                    </li>
+                    <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@virtualislada.hu</span>
+                    </li>
+                    <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 36 1 234 567</span>
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Nyitvatartás</h5>
+        
+                    <table class="table text-center text-white">
+                    <tbody class="fw-normal">
+                        <tr>
+                        <td>Hétfő - Péntek:</td>
+                        <td>8:00- 17:00</td>
+                        </tr>
+                        <tr>
+                        <td>Szombat</td>
+                        <td>8:00 - 12:00</td>
+                        </tr>
+                        <tr>
+                        <td>Vasárnap</td>
+                        <td>Zárva</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(138, 137, 137, 0.2);">
+                © 2022 Copyright:
+                <a class="text-white">Virtuális Láda Kft.</a>
+            </div>
+            </footer>
+        </div>
+    </section>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

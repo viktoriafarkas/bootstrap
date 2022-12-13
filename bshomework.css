@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+* :target {
+    scroll-margin-top:95px;
+}
+
+#rolunk {
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    padding: 10px 150px;
+    margin: auto;
+}
+
+.own-nav {
+    background-color: rgb(3, 3, 3);
+}
+
+.own-rolunk {
+    color: rgb(158, 44, 176);
+}
+
+
+.own-fejlec-szoveg{
+    color: rgb(189, 128, 198);
+}
+
+.own-fejlec-szoveg:hover{
+    color: rgb(47, 255, 0);
+}
+
+.own-p {
+    color: aliceblue;
+}
+
+a.nav-link.active.own-fejlec-szoveg {
+    color: aliceblue;
+}
+
+a.nav-link.active.own-fejlec-szoveg:hover {
+    color: rgb(0, 255, 76);
+}
+
+.own-footer{
+    background-color: rgb(3, 3, 3);
+
+}
+
+.own-btn-2 {
+    background-color: #4ed82f;
+    color: black;
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 3px 7px 1px #888888;
+    transition: 500ms;
+}
+.own-btn-2:hover {
+    background-color: #b60bff;
+    transform: rotate(10deg);
+}
+
+.form-control:focus {
+    border-color: #62ff00;
+    box-shadow: inset 5px 10px 10px rgba(0, 0, 0, 0.075), 0 0 10px #8c9748;
+}
+
+
+.own-h2 {
+    color: rgb(187, 55, 207);
+}
+
+.own-cim {
+    font-family: 'Rubik Vinyl', cursive;
+}
